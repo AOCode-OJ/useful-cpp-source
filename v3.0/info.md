@@ -2,8 +2,6 @@
 This file is created to make you know the infomation of this version of AOCode Useful CPP Source.
 ```
 
-
-
 Version:
 
 > $\text{v}3.0\text{ upd time} = 2021/8/12$
