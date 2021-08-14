@@ -10,6 +10,8 @@ _Enjoy Coding!_
 
 ## Contents
 
+**Notes: Because GitHub Markdown can't support _MathJax_\(or _KaTeX_​​) and some of the other useful Markdown Grammar, Please Download the [Thing][GitHub/uhfs] and use your own Markdown Viewer(Editor) like _Typora_ to read the Markdown Files with more good appearance.**
+
 [TOC]
 
 ## About _**AOCode C++ Useful Header File Source**_
@@ -31,4 +33,4 @@ $$\texttt{------------ }\ \ \ \ \ \ \ \ \ \ \ \ \mathcal{\href{http://vijos.org/
 $$\texttt{------------ }\mathcal{Sponsored\ by\ \href{http://luogu.com.cn/team/33992}{AOCode\ OJ\ Team}}\texttt{ ------------}$$​
 
 [GitHub/uhfs]: http://github.com/AOCode-OJ/useful-cpp-source "GitHub Source"
-[Vijos/AOCode]: http://vijos.org/d/AOCode/ "AOCode - Vijos"
+[Vijos/AOCode]: http://vijos.org/d/AOCode/ "AOCode - Vijos""
