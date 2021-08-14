@@ -22,7 +22,13 @@ You can use all the source classes, structs, functions freely in your code.
 
 As the Project Name goes, this project only supports ```C++```.
 
-This Project has been possessed by [AOCode][vijos/AOCode] since 2021/2/1.
+This Project has been possessed by [AOCode][vijos/AOCode] since $2021/2/1$​.
+
+
+
+$$\texttt{------------ }\ \ \ \ \ \ \ \ \ \ \ \ \mathcal{\href{http://vijos.org/d/AOCode/}{AOCode}\ Copyright}\ \ \ \ \ \ \ \ \ \ \ \ \texttt{ ------------}$$​​​
+
+$$\texttt{------------ }\mathcal{Sponsored\ by\ \href{http://luogu.com.cn/team/33992}{AOCode\ OJ\ Team}}\texttt{ ------------}$$​
 
 [GitHub/uhfs]: http://github.com/AOCode-OJ/useful-cpp-source "GitHub Source"
 [Vijos/AOCode]: http://vijos.org/d/AOCode/ "AOCode - Vijos"
