@@ -33,4 +33,4 @@ $$\texttt{------------ }\mathcal{Sponsored\ by\ \href{http://luogu.com.cn/team/3
 
 
 [GitHub/uhfs]: http://github.com/AOCode-OJ/useful-cpp-source "GitHub Source"
-[Vijos/AOCode]: http://vijos.org/d/AOCode/ "AOCode - Vijos""
+[Vijos/AOCode]: http://vijos.org/d/AOCode/ "AOCode - Vijos"
