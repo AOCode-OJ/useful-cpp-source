@@ -4,7 +4,7 @@ This file is created to make you know the information of this version of AOCode 
 
 Version:
 
-> \(\text{v}3.1\text{ upd time} = 2021/8/29\)
+> $\text{v}3.1\text{ upd time} = 2021/8/29$
 
 Changes **from Version $3.0$**:
 
