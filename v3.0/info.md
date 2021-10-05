@@ -1,5 +1,5 @@
 ```markdown
-This file is created to make you know the infomation of this version of AOCode Useful CPP Source.
+This file is created to make you know the information of this version of AOCode Useful CPP Source.
 ```
 
 Version:

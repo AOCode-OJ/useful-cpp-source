@@ -26,9 +26,9 @@ This Project has been possessed by [**AOCode**][Vijos/AOCode] since $2021/2/1$.
 
 
 
-$$\texttt{------------ }\ \ \ \ \ \ \ \ \ \ \ \ \mathcal{\href{http://vijos.org/d/AOCode/}{AOCode}\ Copyright}\ \ \ \ \ \ \ \ \ \ \ \ \texttt{ ------------}$$
+\(\texttt{------------ }\ \ \ \ \ \ \ \ \ \ \ \ \mathcal{\href{http://vijos.org/d/AOCode/}{AOCode}\ Copyright}\ \ \ \ \ \ \ \ \ \ \ \ \texttt{ ------------}\)
 
-$$\texttt{------------ }\mathcal{Sponsored\ by\ \href{http://luogu.com.cn/team/33992}{AOCode\ OJ\ Team}}\texttt{ ------------}$$
+\(\texttt{------------ }\mathcal{Sponsored\ by\ \href{http://luogu.com.cn/team/33992}{AOCode\ OJ\ Team}}\texttt{ ------------}\)
 
 
 
