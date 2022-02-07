@@ -47,6 +47,7 @@ namespace stdplus {
 	template <class T> class Rectangle;
 	template <class T> class Square;
 	struct UFS;
+	struct BIT;
 
 	// functions
 
@@ -1404,13 +1405,15 @@ namespace stdplus {
 
 	// Union-Find-Set declare here
 	struct UFS {
-		std::vector<int> father;
+		std::vector<int> father, size_;
 
 		UFS() {
 			father = std::vector<int>();
+			size_ = std::vector<int>();
 		}
 		UFS(int n) {
 			father = std::vector<int>(n, -1);
+			size_ = std::vector<int>(n, 1);
 		}
 		int findFather(int x) {
 			if(father[x] < 0)
@@ -1421,14 +1424,57 @@ namespace stdplus {
 			int faA = findFather(a);
 			int faB = findFather(b);
 			if(faA != faB) {
-				father[faA] += father[faB];
+				father[faA] = -1;
 				father[faB] = faA;
+				size_[faA] += size_[faB];
+				size_[faB] = 0;
 			}
+		}
+		int findNum(){
+			set<int> s;
+			for(int i = 0;i < father.size();i++){
+				s.insert(FindFather(i));
+			}
+			return s.size();
 		}
 		int& operator[] (const int& pos) {
 			return father[pos];
 		}
+		int& operator() (const int& pos){
+			return size_[pos];
+		}
 	};
+	
+	// BIT declared here
+	struct BIT{
+                vector<int> c;
+                BIT(){
+                        c = std::vector<int>();
+                }
+                BIT(int n){
+                        c = std::vector<int>(n + 1, 0);
+                }
+                inline int lowbit(int n){
+                        return n & (-n);
+                }
+                void add(int n, int k){
+                        while(n < c.size()){
+                                c[n] += k;
+                                n += lowbit(n);
+                        }
+                }
+                int query(int n, int k){
+                        int ans = 0;
+                        while(n >= 1){
+                                ans += c[n];
+                                n -= lowbit(n);
+                        }
+                        return ans;
+                }
+                int& operator[] (int pos){
+                        return query(pos, pos);
+                }
+        };
 
 	// list(normal)
 	template <class T> class List {
