@@ -1,0 +1,23 @@
+/****************************************
+********** File: includeall
+****************************************/
+
+#include "declaring.h"
+
+#include "math"
+#include "bst"
+#include "ufs"
+#include "list"
+
+#ifdef _USE_NEWDEFINE_
+#	include "newdefine"
+#	undef _USE_NEWDEFINE_
+#endif // _USE_NEWDEFINE_
+
+#if __cplusplus >= 201300L
+#	include "matrixop"
+#	include "binarr"
+#	include "convenience"
+#endif // C++14
+
+#undef ll
