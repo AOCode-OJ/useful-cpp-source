@@ -8,4 +8,5 @@ As the project changes a lot, we skipped the version No. `3.2`&`3.3` and make th
 >- Added: Vertex count in struct `stdplus::UFS` in file `ufs`.
 >- Fixed: Division operation ERROR in struct `stdplus::mathpl::bigncl::bign` in file `math`. (C++14)
 >- Fixed: `Compile Error` when `#include` a file more than once. 
+>- Note that programs using `v3.1` may receive a `Compile Error`.
 
