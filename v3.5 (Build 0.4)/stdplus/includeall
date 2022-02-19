@@ -1,0 +1,33 @@
+/****************************************
+********** File: includeall
+****************************************/
+
+#ifndef _STDPLUS_INCLUDEALL_
+#define _STDPLUS_INCLUDEALL_ 1
+
+#include "declaring.h"
+
+#include "math"
+#include "bst"
+#include "ufs"
+#include "list"
+
+#ifdef _USE_NEWDEFINE_
+#	include "newdefine"
+#	undef _USE_NEWDEFINE_
+#endif // _USE_NEWDEFINE_
+
+#if __cplusplus >= 201300L
+#	include "matrixop"
+#	include "binarr"
+#	include "convenience"
+#	include "segtree"
+#	ifdef _USE_RAWINT_
+#		include "rawint"
+#	endif
+#endif // C++14
+
+
+#include "def_erasing.h"
+
+#endif
